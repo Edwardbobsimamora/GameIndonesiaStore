@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#2D0C57"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Status" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#2D0C57"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Transaksi Berhasil" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2D0C57"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Nomor Referensi" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2D0C57"
+                android:textAlignment="textEnd"
+                android:textSize="15dp"
+                android:text="xxxxxxxxxxxx" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2D0C57"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Tanggal Transaksi" />
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2D0C57"
+                android:textAlignment="textEnd"
+                android:textSize="15dp"
+                android:text="15/12/2021" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2D0C57"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Waktu Transaksi" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2D0C57"
+                android:textAlignment="textEnd"
+                android:textSize="15dp"
+                android:text="15/12/2021" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="#000000" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2D0C57"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Nama Game" />
+
+            <TextView
+                android:id="@+id/tv_game_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2D0C57"
+                android:textAlignment="textEnd"
+                android:textSize="15dp"
+                android:text="Nama Game" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2D0C57"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Harga" />
+
+            <TextView
+                android:id="@+id/tv_game_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2D0C57"
+                android:textAlignment="textEnd"
+                android:textSize="15dp"
+                android:text="Harga" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="#000000" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2D0C57"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Nama User" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2D0C57"
+                android:textAlignment="textEnd"
+                android:textSize="15dp"
+                android:text="Edward Bob" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2D0C57"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Metode Pembayaran" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2D0C57"
+                android:textAlignment="textEnd"
+                android:textSize="15dp"
+                android:text="Bank Indonesia" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2D0C57"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Nominal" />
+
+            <TextView
+                android:id="@+id/tv_game_nominal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2D0C57"
+                android:textAlignment="textEnd"
+                android:textSize="15dp"
+                android:text="Harga" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2D0C57"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Biaya Admin" />
+
+            <TextView
+                android:id="@+id/tv_game_admin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2D0C57"
+                android:textAlignment="textEnd"
+                android:textSize="15dp"
+                android:text="Rp 6 500" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/home_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#0bce83"
+            android:layout_alignParentEnd="true"
+            android:text="Kembali ke Beranda"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

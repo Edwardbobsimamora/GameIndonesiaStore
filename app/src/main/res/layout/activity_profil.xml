@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_profil"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_image"
+                android:layout_width="match_parent"
+                android:layout_height="258dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/bob"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/tv_image_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#4D000000"
+                android:drawablePadding="4dp"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:text="EDWARD BOB SIMAMORA"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@android:color/white"/>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="#2D0C57"
+            android:text="EDWARD BOB SIMAMORA"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/tv_user_nim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="#2D0C57"
+            android:text="171401141"
+            android:textSize="25sp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_image_2"
+                android:layout_width="match_parent"
+                android:layout_height="258dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/alya"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/tv_image_name_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#4D000000"
+                android:drawablePadding="4dp"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:text="ALYA NABILA RIDWAN RITONGA"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@android:color/white"/>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_user_name_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="#2D0C57"
+            android:text="ALYA NABILA RIDWAN RITONGA"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/tv_user_nim_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="#2D0C57"
+            android:text="171401094"
+            android:textSize="25sp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_image_3"
+                android:layout_width="match_parent"
+                android:layout_height="258dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/nadhif"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/tv_image_name_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#4D000000"
+                android:drawablePadding="4dp"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:text="M NADHIF PRADIZA HUSNI"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@android:color/white"/>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_user_name_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="#2D0C57"
+            android:text="M NADHIF PRADIZA HUSNI"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/tv_user_nim_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="#2D0C57"
+            android:text="171401139"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+
+</ScrollView>
